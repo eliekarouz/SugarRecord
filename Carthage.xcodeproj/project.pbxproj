@@ -113,11 +113,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2334C46A1D7DD8A500ACBC3A /* SugarRecordCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugarRecordCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2334C46A1D7DD8A500ACBC3A /* SugarRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugarRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2334C4981D7DD90800ACBC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2334C49E1D7DD93600ACBC3A /* SugarRecordCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugarRecordCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2334C4AB1D7DD95C00ACBC3A /* SugarRecordCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugarRecordCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2334C4B81D7DD97B00ACBC3A /* SugarRecordCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugarRecordCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2334C49E1D7DD93600ACBC3A /* SugarRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugarRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2334C4AB1D7DD95C00ACBC3A /* SugarRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugarRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2334C4B81D7DD97B00ACBC3A /* SugarRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugarRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		237FBA171D9C0AD000D87AA3 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		237FBA181D9C0AD000D87AA3 /* RequestObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestObservable.swift; sourceTree = "<group>"; };
 		237FBA191D9C0AD000D87AA3 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
@@ -221,10 +221,10 @@
 		2334C46B1D7DD8A500ACBC3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2334C46A1D7DD8A500ACBC3A /* SugarRecordCoreData.framework */,
-				2334C49E1D7DD93600ACBC3A /* SugarRecordCoreData.framework */,
-				2334C4AB1D7DD95C00ACBC3A /* SugarRecordCoreData.framework */,
-				2334C4B81D7DD97B00ACBC3A /* SugarRecordCoreData.framework */,
+				2334C46A1D7DD8A500ACBC3A /* SugarRecord.framework */,
+				2334C49E1D7DD93600ACBC3A /* SugarRecord.framework */,
+				2334C4AB1D7DD95C00ACBC3A /* SugarRecord.framework */,
+				2334C4B81D7DD97B00ACBC3A /* SugarRecord.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -540,7 +540,7 @@
 			);
 			name = iOSCoreData;
 			productName = SugarRecord;
-			productReference = 2334C46A1D7DD8A500ACBC3A /* SugarRecordCoreData.framework */;
+			productReference = 2334C46A1D7DD8A500ACBC3A /* SugarRecord.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2334C49D1D7DD93600ACBC3A /* watchOSCoreData */ = {
@@ -558,7 +558,7 @@
 			);
 			name = watchOSCoreData;
 			productName = watchOS;
-			productReference = 2334C49E1D7DD93600ACBC3A /* SugarRecordCoreData.framework */;
+			productReference = 2334C49E1D7DD93600ACBC3A /* SugarRecord.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2334C4AA1D7DD95C00ACBC3A /* tvOSCoreData */ = {
@@ -576,7 +576,7 @@
 			);
 			name = tvOSCoreData;
 			productName = tvOS;
-			productReference = 2334C4AB1D7DD95C00ACBC3A /* SugarRecordCoreData.framework */;
+			productReference = 2334C4AB1D7DD95C00ACBC3A /* SugarRecord.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2334C4B71D7DD97B00ACBC3A /* macOSCoreData */ = {
@@ -594,7 +594,7 @@
 			);
 			name = macOSCoreData;
 			productName = macOS;
-			productReference = 2334C4B81D7DD97B00ACBC3A /* SugarRecordCoreData.framework */;
+			productReference = 2334C4B81D7DD97B00ACBC3A /* SugarRecord.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -915,8 +915,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.caramba.SugarRecord;
-				PRODUCT_MODULE_NAME = SugarRecordCoreData;
-				PRODUCT_NAME = SugarRecordCoreData;
+				PRODUCT_MODULE_NAME = SugarRecord;
+				PRODUCT_NAME = SugarRecord;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -934,8 +934,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.caramba.SugarRecord;
-				PRODUCT_MODULE_NAME = SugarRecordCoreData;
-				PRODUCT_NAME = SugarRecordCoreData;
+				PRODUCT_MODULE_NAME = SugarRecord;
+				PRODUCT_NAME = SugarRecord;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -954,8 +954,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.caramba.watchOS;
-				PRODUCT_MODULE_NAME = SugarRecordCoreData;
-				PRODUCT_NAME = SugarRecordCoreData;
+				PRODUCT_MODULE_NAME = SugarRecord;
+				PRODUCT_NAME = SugarRecord;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -977,8 +977,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.caramba.watchOS;
-				PRODUCT_MODULE_NAME = SugarRecordCoreData;
-				PRODUCT_NAME = SugarRecordCoreData;
+				PRODUCT_MODULE_NAME = SugarRecord;
+				PRODUCT_NAME = SugarRecord;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -999,8 +999,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.caramba.tvOS;
-				PRODUCT_MODULE_NAME = SugarRecordCoreData;
-				PRODUCT_NAME = SugarRecordCoreData;
+				PRODUCT_MODULE_NAME = SugarRecord;
+				PRODUCT_NAME = SugarRecord;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1021,8 +1021,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.caramba.tvOS;
-				PRODUCT_MODULE_NAME = SugarRecordCoreData;
-				PRODUCT_NAME = SugarRecordCoreData;
+				PRODUCT_MODULE_NAME = SugarRecord;
+				PRODUCT_NAME = SugarRecord;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1047,8 +1047,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = in.caramba.macOS;
-				PRODUCT_MODULE_NAME = SugarRecordCoreData;
-				PRODUCT_NAME = SugarRecordCoreData;
+				PRODUCT_MODULE_NAME = SugarRecord;
+				PRODUCT_NAME = SugarRecord;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1071,8 +1071,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = in.caramba.macOS;
-				PRODUCT_MODULE_NAME = SugarRecordCoreData;
-				PRODUCT_NAME = SugarRecordCoreData;
+				PRODUCT_MODULE_NAME = SugarRecord;
+				PRODUCT_NAME = SugarRecord;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
