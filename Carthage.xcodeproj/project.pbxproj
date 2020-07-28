@@ -23,10 +23,6 @@
 		237FBA461D9C0AD000D87AA3 /* StorageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1B1D9C0AD000D87AA3 /* StorageError.swift */; };
 		237FBA481D9C0AD000D87AA3 /* StorageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1B1D9C0AD000D87AA3 /* StorageError.swift */; };
 		237FBA4A1D9C0AD000D87AA3 /* StorageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1B1D9C0AD000D87AA3 /* StorageError.swift */; };
-		237FBA4C1D9C0AD000D87AA3 /* RequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1D1D9C0AD000D87AA3 /* RequestExtension.swift */; };
-		237FBA4E1D9C0AD000D87AA3 /* RequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1D1D9C0AD000D87AA3 /* RequestExtension.swift */; };
-		237FBA501D9C0AD000D87AA3 /* RequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1D1D9C0AD000D87AA3 /* RequestExtension.swift */; };
-		237FBA521D9C0AD000D87AA3 /* RequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1D1D9C0AD000D87AA3 /* RequestExtension.swift */; };
 		237FBA541D9C0AD000D87AA3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1F1D9C0AD000D87AA3 /* Logger.swift */; };
 		237FBA561D9C0AD000D87AA3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1F1D9C0AD000D87AA3 /* Logger.swift */; };
 		237FBA581D9C0AD000D87AA3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1F1D9C0AD000D87AA3 /* Logger.swift */; };
@@ -126,7 +122,6 @@
 		237FBA181D9C0AD000D87AA3 /* RequestObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestObservable.swift; sourceTree = "<group>"; };
 		237FBA191D9C0AD000D87AA3 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		237FBA1B1D9C0AD000D87AA3 /* StorageError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageError.swift; sourceTree = "<group>"; };
-		237FBA1D1D9C0AD000D87AA3 /* RequestExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestExtension.swift; sourceTree = "<group>"; };
 		237FBA1F1D9C0AD000D87AA3 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		237FBA211D9C0AD000D87AA3 /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
 		237FBA221D9C0AD000D87AA3 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
@@ -279,7 +274,6 @@
 			children = (
 				237FBA161D9C0AD000D87AA3 /* Entities */,
 				237FBA1A1D9C0AD000D87AA3 /* Errors */,
-				237FBA1C1D9C0AD000D87AA3 /* Extensions */,
 				237FBA1E1D9C0AD000D87AA3 /* Logger */,
 				237FBA201D9C0AD000D87AA3 /* Protocols */,
 				237FBA261D9C0AD000D87AA3 /* Utils */,
@@ -305,14 +299,6 @@
 				237FBA1B1D9C0AD000D87AA3 /* StorageError.swift */,
 			);
 			path = Errors;
-			sourceTree = "<group>";
-		};
-		237FBA1C1D9C0AD000D87AA3 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				237FBA1D1D9C0AD000D87AA3 /* RequestExtension.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		237FBA1E1D9C0AD000D87AA3 /* Logger */ = {
@@ -643,6 +629,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 2334C4601D7DD8A500ACBC3A;
@@ -715,7 +702,6 @@
 				237FBA641D9C0AD000D87AA3 /* Entity.swift in Sources */,
 				237FBA2C1D9C0AD000D87AA3 /* Request.swift in Sources */,
 				237FBAAD1D9C0ADC00D87AA3 /* CoreDataChange.swift in Sources */,
-				237FBA4C1D9C0AD000D87AA3 /* RequestExtension.swift in Sources */,
 				237FBA7C1D9C0AD000D87AA3 /* Requestable.swift in Sources */,
 				237FBAB91D9C0ADC00D87AA3 /* CoreDataObjectModel.swift in Sources */,
 				237FBAC91D9C0ADC00D87AA3 /* CoreDataError.swift in Sources */,
@@ -748,7 +734,6 @@
 				237FBA661D9C0AD000D87AA3 /* Entity.swift in Sources */,
 				237FBA2E1D9C0AD000D87AA3 /* Request.swift in Sources */,
 				237FBAAE1D9C0ADC00D87AA3 /* CoreDataChange.swift in Sources */,
-				237FBA4E1D9C0AD000D87AA3 /* RequestExtension.swift in Sources */,
 				237FBA7E1D9C0AD000D87AA3 /* Requestable.swift in Sources */,
 				237FBABA1D9C0ADC00D87AA3 /* CoreDataObjectModel.swift in Sources */,
 				237FBACA1D9C0ADC00D87AA3 /* CoreDataError.swift in Sources */,
@@ -781,7 +766,6 @@
 				237FBA681D9C0AD000D87AA3 /* Entity.swift in Sources */,
 				237FBA301D9C0AD000D87AA3 /* Request.swift in Sources */,
 				237FBAAF1D9C0ADC00D87AA3 /* CoreDataChange.swift in Sources */,
-				237FBA501D9C0AD000D87AA3 /* RequestExtension.swift in Sources */,
 				237FBA801D9C0AD000D87AA3 /* Requestable.swift in Sources */,
 				237FBABB1D9C0ADC00D87AA3 /* CoreDataObjectModel.swift in Sources */,
 				237FBACB1D9C0ADC00D87AA3 /* CoreDataError.swift in Sources */,
@@ -815,7 +799,6 @@
 				237FBA6A1D9C0AD000D87AA3 /* Entity.swift in Sources */,
 				237FBA321D9C0AD000D87AA3 /* Request.swift in Sources */,
 				237FBAB01D9C0ADC00D87AA3 /* CoreDataChange.swift in Sources */,
-				237FBA521D9C0AD000D87AA3 /* RequestExtension.swift in Sources */,
 				237FBA821D9C0AD000D87AA3 /* Requestable.swift in Sources */,
 				237FBABC1D9C0ADC00D87AA3 /* CoreDataObjectModel.swift in Sources */,
 				237FBACC1D9C0ADC00D87AA3 /* CoreDataError.swift in Sources */,
@@ -870,6 +853,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -911,6 +895,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -933,7 +918,7 @@
 				PRODUCT_MODULE_NAME = SugarRecordCoreData;
 				PRODUCT_NAME = SugarRecordCoreData;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -952,7 +937,7 @@
 				PRODUCT_MODULE_NAME = SugarRecordCoreData;
 				PRODUCT_NAME = SugarRecordCoreData;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -973,7 +958,7 @@
 				PRODUCT_NAME = SugarRecordCoreData;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -996,7 +981,7 @@
 				PRODUCT_NAME = SugarRecordCoreData;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -1018,7 +1003,7 @@
 				PRODUCT_NAME = SugarRecordCoreData;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1040,7 +1025,7 @@
 				PRODUCT_NAME = SugarRecordCoreData;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1066,7 +1051,7 @@
 				PRODUCT_NAME = SugarRecordCoreData;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1090,7 +1075,7 @@
 				PRODUCT_NAME = SugarRecordCoreData;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

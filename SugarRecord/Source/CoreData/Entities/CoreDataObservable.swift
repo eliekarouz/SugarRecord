@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 import CoreData
 
 @available(OSX 10.12, *)
